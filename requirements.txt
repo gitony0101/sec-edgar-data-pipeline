@@ -1,0 +1,10 @@
+requests
+pandas
+beautifulsoup4
+markdownify
+pypdf
+xmltodict
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+pypandoc
