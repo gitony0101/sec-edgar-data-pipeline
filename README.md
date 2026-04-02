@@ -1,52 +1,33 @@
 # SEC EDGAR Data Pipeline
 
-Python-based data collection pipeline for retrieving SEC filing metadata and primary filing documents from the SEC EDGAR system.
+A small Python pipeline for downloading recent SEC EDGAR filings by CIK, converting primary documents to Markdown, and parsing Form 4 XML.
 
-## Overview
+## 30-second overview
 
-This project automates the retrieval of SEC filing information using company CIK identifiers and supports structured download of filing documents for downstream analysis.
+- `sec_edgar_pipeline/sec_client.py`: SEC API client with respectful headers.
+- `sec_edgar_pipeline/pipeline.py`: fetch + download + convert recent filings.
+- `sec_edgar_pipeline/converters.py`: HTML/XML/PDF/TXT to Markdown.
+- `sec_edgar_pipeline/xml_parsers.py`: Form 4 XML to normalized JSON.
+- `sec_edgar_pipeline/google_drive.py`: optional Google Drive integration isolated from core.
+- `tests/`: local smoke tests + optional network smoke test.
 
-The current workflow includes:
-- fetching company submission metadata from the SEC EDGAR data endpoint
-- parsing recent filing records
-- constructing filing document URLs
-- downloading primary filing HTML files
-- organizing outputs for future analysis
+## Quick start
 
-## Why This Project Matters
+```bash
+python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
+```
 
-Public regulatory filings are an important source of structured and unstructured financial information. This project demonstrates practical experience in:
-- public web data collection
-- metadata parsing
-- document retrieval workflows
-- file organization for downstream analytics
+Output defaults to `outputs/filings_markdown` unless `SEC_OUTPUT_DIR` or `--output-dir` is set.
 
-## Current Functionality
+## Minimal end-to-end command
 
-The current notebook-based workflow supports:
-- SEC-compliant request headers
-- CIK-based submission lookup
-- extraction of recent filing information
-- primary document download
-- local file storage
-- basic rate limiting
+```bash
+SEC_CIK=320193 SEC_USER_AGENT="Your Name (you@example.com)" python -m sec_edgar_pipeline --limit 2 --output-dir outputs/filings_markdown
+```
 
-## Project Structure
+## Notes
 
-```text
-sec-edgar-data-pipeline/
-├── README.md
-├── requirements.txt
-├── data/
-│   ├── raw/
-│   └── processed/
-├── notebooks/
-│   └── SEC_API_0.ipynb
-├── scripts/
-│   ├── fetch_submissions.py
-│   ├── download_filings.py
-│   └── utils.py
-├── outputs/
-│   ├── metadata/
-│   └── filings_html/
-└── figures/
+- Core pipeline has no Google Colab dependency.
+- Google Drive support is optional and imported lazily.
+
+See `RUNNING.md` for full run and validation details.

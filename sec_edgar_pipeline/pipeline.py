@@ -1,6 +1,4 @@
-"""
-End-to-end SEC filing pipeline and Markdown merge utilities.
-"""
+"""End-to-end SEC filing pipeline and Markdown merge utilities."""
 
 from __future__ import annotations
 
@@ -8,11 +6,11 @@ import shutil
 import tempfile
 import time
 from pathlib import Path
-from typing import Dict, Iterable, List, Optional
+from typing import Dict, List, Optional
 
-from document_converters import convert_local_file_to_markdown, save_markdown
-from sec_edgar_client import FilingRecord, SECClient
-from sec_form_map import build_markdown_filename, sanitize_for_path
+from .converters import convert_local_file_to_markdown, save_markdown
+from .form_map import build_markdown_filename, sanitize_for_path
+from .sec_client import FilingRecord, SECClient
 
 
 def build_filing_markdown_header(record: FilingRecord, processing_status: str) -> str:
@@ -39,9 +37,7 @@ def convert_recent_filings_to_markdown(
     limit: Optional[int] = None,
     sleep_seconds: float = 0.5,
 ) -> List[Dict]:
-    """
-    Download recent filings from SEC and convert them to Markdown.
-    """
+    """Download recent filings from SEC and convert them to Markdown."""
     client = SECClient(cik=cik, user_agent=user_agent)
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -87,9 +83,7 @@ def convert_recent_filings_to_markdown(
 
 
 def convert_html_folder_to_markdown(input_dir: Path, output_dir: Optional[Path] = None) -> List[Path]:
-    """
-    Convert every HTML-like file in a folder to Markdown.
-    """
+    """Convert every HTML-like file in a folder to Markdown."""
     input_dir = Path(input_dir)
     output_dir = Path(output_dir) if output_dir else input_dir / "MD"
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -107,9 +101,7 @@ def convert_html_folder_to_markdown(input_dir: Path, output_dir: Optional[Path] 
 
 
 def merge_markdown_files(input_dir: Path, output_file: Path, recursive: bool = False) -> Path:
-    """
-    Merge Markdown files into one file.
-    """
+    """Merge Markdown files into one file."""
     input_dir = Path(input_dir)
     output_file = Path(output_file)
     output_file.parent.mkdir(parents=True, exist_ok=True)

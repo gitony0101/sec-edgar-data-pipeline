@@ -1,10 +1,14 @@
-requests
-pandas
-beautifulsoup4
-markdownify
-pypdf
-xmltodict
-google-api-python-client
-google-auth-httplib2
-google-auth-oauthlib
-pypandoc
+requests>=2.31
+pandas>=2.0
+markdownify>=0.11
+pypdf>=4.0
+xmltodict>=0.13
+pytest>=8.0
+
+# Optional Google Drive integration:
+google-api-python-client>=2.0
+google-auth-httplib2>=0.2
+google-auth-oauthlib>=1.2
+
+# Optional document conversion extras:
+pypandoc>=1.13
