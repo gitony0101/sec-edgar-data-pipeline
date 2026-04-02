@@ -1,6 +1,4 @@
-"""
-Shared constants and filename helpers for SEC filing processing.
-"""
+"""Shared constants and filename helpers for SEC filing processing."""
 
 from __future__ import annotations
 
@@ -59,21 +57,16 @@ FORM_TYPE_MAP: Dict[str, str] = {
 
 
 def sanitize_for_path(value: str) -> str:
-    """
-    Make a string safe for folder names and filenames.
-    """
+    """Make a string safe for folder names and filenames."""
     safe = value.strip()
-    safe = safe.replace("/", "_")
-    safe = safe.replace("\\", "_")
+    safe = safe.replace("/", "_").replace("\\", "_")
     safe = re.sub(r"\s+", "_", safe)
     safe = re.sub(r"[^A-Za-z0-9._-]", "", safe)
     return safe or "unknown"
 
 
 def get_concise_name(form_type: str) -> str:
-    """
-    Return a concise English label for a SEC form type.
-    """
+    """Return a concise English label for an SEC form type."""
     return sanitize_for_path(FORM_TYPE_MAP.get(form_type, form_type))
 
 
@@ -83,9 +76,7 @@ def build_markdown_filename(
     accession_number: str,
     extension: str = ".md",
 ) -> str:
-    """
-    Build a normalized output filename.
-    """
+    """Build a normalized output filename."""
     concise = get_concise_name(form_type)
     form_part = sanitize_for_path(form_type)
     accession_part = sanitize_for_path(accession_number)

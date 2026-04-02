@@ -1,6 +1,4 @@
-"""
-Document conversion helpers for SEC filing content.
-"""
+"""Document conversion helpers for SEC filing content."""
 
 from __future__ import annotations
 
@@ -13,14 +11,8 @@ from pypdf import PdfReader
 
 
 def html_to_markdown(html_text: str) -> str:
-    """
-    Convert HTML or XML-like content to Markdown.
-    """
-    return markdownify.markdownify(
-        html_text,
-        strip=["script", "style"],
-        heading_style="ATX",
-    )
+    """Convert HTML or XML-like content to Markdown."""
+    return markdownify.markdownify(html_text, strip=["script", "style"], heading_style="ATX")
 
 
 def html_file_to_markdown(file_path: Path) -> str:
@@ -28,13 +20,9 @@ def html_file_to_markdown(file_path: Path) -> str:
 
 
 def pdf_to_markdown(file_path: Path) -> str:
-    """
-    Extract plain text from a PDF and return Markdown-compatible text.
-    """
+    """Extract plain text from a PDF and return Markdown-compatible text."""
     reader = PdfReader(str(file_path))
-    chunks = []
-    for page in reader.pages:
-        chunks.append(page.extract_text() or "")
+    chunks = [page.extract_text() or "" for page in reader.pages]
     return "\n\n---\n\n".join(chunks).strip()
 
 
@@ -43,9 +31,7 @@ def txt_to_markdown(file_path: Path) -> str:
 
 
 def convert_local_file_to_markdown(file_path: Path) -> str:
-    """
-    Convert a local file to Markdown based on file extension.
-    """
+    """Convert a local file to Markdown based on file extension."""
     suffix = Path(file_path).suffix.lower()
     if suffix in {".htm", ".html", ".xml"}:
         return html_file_to_markdown(file_path)
@@ -64,9 +50,7 @@ def save_markdown(markdown_text: str, output_path: Path) -> Path:
 
 
 def markdown_to_docx(markdown_text: str, output_path: Path) -> Path:
-    """
-    Convert Markdown text to DOCX using pypandoc.
-    """
+    """Convert Markdown text to DOCX using pypandoc."""
     import pypandoc
 
     output_path = Path(output_path)
@@ -79,18 +63,8 @@ def markdown_to_docx(markdown_text: str, output_path: Path) -> Path:
 
 
 def try_ocr_pdf(input_pdf: Path, output_pdf: Optional[Path] = None, language: str = "eng") -> Path:
-    """
-    Run OCR on a PDF using ocrmypdf if the executable is available.
-    """
+    """Run OCR on a PDF using ocrmypdf if the executable is available."""
     input_pdf = Path(input_pdf)
     output_pdf = Path(output_pdf) if output_pdf else input_pdf.with_name(f"{input_pdf.stem}_ocr{input_pdf.suffix}")
-    command = [
-        "ocrmypdf",
-        "-f",
-        "-l",
-        language,
-        str(input_pdf),
-        str(output_pdf),
-    ]
-    subprocess.run(command, check=True)
+    subprocess.run(["ocrmypdf", "-f", "-l", language, str(input_pdf), str(output_pdf)], check=True)
     return output_pdf
