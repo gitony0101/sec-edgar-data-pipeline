@@ -1,0 +1,19 @@
+sec_edgar_pipeline
+├── __init__.py
+├── __main__.py
+├── __pycache__
+│   ├── __init__.cpython-311.pyc
+│   ├── converters.cpython-311.pyc
+│   ├── form_map.cpython-311.pyc
+│   ├── pipeline.cpython-311.pyc
+│   ├── sec_client.cpython-311.pyc
+│   └── xml_parsers.cpython-311.pyc
+├── config.py
+├── converters.py
+├── form_map.py
+├── google_drive.py
+├── pipeline.py
+├── sec_client.py
+└── xml_parsers.py
+
+2 directories, 15 files

@@ -1,3 +1,18 @@
+# Analysis Report
+
+- target: sec_edgar_pipeline/form_map.py
+- action: 2
+- role: 7
+- role_label: form_mapping_utility_module
+
+## Deterministic Draft
+
+DRAFT: This file appears to provide SEC form mapping and filename/path helper utilities.
+DRAFT: Extra code context was fetched because the file is moderately sized.
+
+## First 80 Lines
+
+```python
 """Shared constants and filename helpers for SEC filing processing."""
 
 from __future__ import annotations
@@ -77,10 +92,6 @@ def build_markdown_filename(
     extension: str = ".md",
 ) -> str:
     """Build a normalized output filename."""
-    form_part = sanitize_for_path(form_type)
     concise = get_concise_name(form_type)
-    if form_type not in FORM_TYPE_MAP:
-        concise = "Unknown_Form"
-    filing_date_part = sanitize_for_path(filing_date)
-    accession_part = sanitize_for_path(accession_number)
-    return f"{concise}_{form_part}_{filing_date_part}_{accession_part}{extension}"
+```
+

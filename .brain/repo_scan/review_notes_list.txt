@@ -1,0 +1,9 @@
+review/FILE_NOTES/sec_edgar_pipeline____main__.py.md
+review/FILE_NOTES/sec_edgar_pipeline__config.py.md
+review/FILE_NOTES/sec_edgar_pipeline__converters.py.md
+review/FILE_NOTES/sec_edgar_pipeline__form_map.py.md
+review/FILE_NOTES/sec_edgar_pipeline__google_drive.py.md
+review/FILE_NOTES/sec_edgar_pipeline__pipeline.py.md
+review/FILE_NOTES/sec_edgar_pipeline__sec_client.py.md
+review/FILE_NOTES/sec_edgar_pipeline__xml_parsers.py.md
+review/FILE_NOTES/tests__test_smoke_local.py.md

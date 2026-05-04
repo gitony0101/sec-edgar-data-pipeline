@@ -28,10 +28,10 @@ def parse_form4_xml_to_json(file_path: Path) -> Dict[str, Any]:
     else:
         ownership_doc = xml_dict.get("ownershipDocument", {})
 
-    reporting_owner = ownership_doc.get("reportingOwner", {})
-    issuer = ownership_doc.get("issuer", {})
+    reporting_owner = (ownership_doc.get("reportingOwner") or {})
+    issuer = (ownership_doc.get("issuer") or {})
 
-    transactions = ownership_doc.get("nonDerivativeTable", {}).get("nonDerivativeTransaction", [])
+    transactions = (ownership_doc.get("nonDerivativeTable") or {}).get("nonDerivativeTransaction", [])
     if isinstance(transactions, dict):
         transactions = [transactions]
 

@@ -2,16 +2,19 @@
 
 from __future__ import annotations
 
+import logging
 import shutil
 import tempfile
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Any, Dict, List, Optional
 
 from .converters import convert_local_file_to_markdown, save_markdown
 from .form_map import build_markdown_filename, sanitize_for_path
 from .sec_client import FilingRecord, SECClient
 
+logger = logging.getLogger(__name__)
 
 def build_filing_markdown_header(record: FilingRecord, processing_status: str) -> str:
     lines = [
@@ -30,14 +33,79 @@ def build_filing_markdown_header(record: FilingRecord, processing_status: str) -
     return "\n".join(lines)
 
 
+def _process_single_record(
+    client: SECClient,
+    record: FilingRecord,
+    temp_dir: Path,
+    output_dir: Path,
+) -> Dict[str, Any]:
+    """Internal helper to process a single filing record."""
+    result = {
+        "form_type": record.form_type,
+        "primary_document": record.primary_document,
+        "filing_date": record.filing_date,
+        "accession_number": record.accession_number,
+        "status": "started",
+        "saved_path": None,
+    }
+    try:
+        local_filename = f"{record.accession_number}{record.extension or '.dat'}"
+        local_path = temp_dir / local_filename
+        
+        # Download
+        client.download_document(record.accession_number, record.primary_document, local_path)
+
+        # Convert
+        markdown_body = convert_local_file_to_markdown(local_path)
+        header = build_filing_markdown_header(record, "converted to Markdown")
+        full_markdown = f"{header}\n{markdown_body}".strip() + "\n"
+
+        # Save
+        form_dir = output_dir / sanitize_for_path(record.form_type)
+        md_name = build_markdown_filename(record.form_type, record.filing_date, record.accession_number)
+        saved_path = save_markdown(full_markdown, form_dir / md_name)
+
+        result["status"] = "success"
+        result["saved_path"] = str(saved_path)
+        logger.info(f"Successfully processed {record.form_type} for {record.accession_number}")
+    except Exception as exc:
+        result["status"] = f"error: {exc}"
+        logger.error(f"Failed to process {record.accession_number}: {exc}")
+    
+    return result
+
+
 def convert_recent_filings_to_markdown(
     cik: str,
     user_agent: str,
     output_dir: Path,
     limit: Optional[int] = None,
-    sleep_seconds: float = 0.5,
+    sleep_seconds: float = 0.1,  # Reduced sleep for parallel execution
+    max_workers: int = 5,
 ) -> List[Dict]:
-    """Download recent filings from SEC and convert them to Markdown."""
+    """Download recent filings from SEC and convert them to Markdown.
+
+    Parameters
+    ----------
+    cik: str
+        Central Index Key of the company to fetch filings for.
+    user_agent: str
+        HTTP User-Agent header required by SEC.
+    output_dir: Path
+        Destination directory for generated markdown files.
+    limit: Optional[int]
+        Maximum number of recent filings to process (None means all).
+    sleep_seconds: float
+        Seconds to sleep between processing each result. Must be non‑negative.
+    max_workers: int
+        Number of parallel threads. Must be >= 1.
+    """
+    # ---- Defensive argument validation (low‑risk patch) ----
+    if sleep_seconds < 0:
+        raise ValueError("sleep_seconds must be non‑negative")
+    if max_workers < 1:
+        raise ValueError("max_workers must be at least 1")
+    """Download recent filings from SEC and convert them to Markdown using parallel threads."""
     client = SECClient(cik=cik, user_agent=user_agent)
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -46,38 +114,24 @@ def convert_recent_filings_to_markdown(
     results: List[Dict] = []
 
     try:
-        for record in client.get_recent_filings(limit=limit):
-            result = {
-                "form_type": record.form_type,
-                "primary_document": record.primary_document,
-                "filing_date": record.filing_date,
-                "accession_number": record.accession_number,
-                "status": "started",
-                "saved_path": None,
+        records = client.get_recent_filings(limit=limit)
+        logger.info(f"Starting parallel processing of {len(records)} filings...")
+
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
+            future_to_record = {
+                executor.submit(_process_single_record, client, record, temp_dir, output_dir): record 
+                for record in records
             }
 
-            try:
-                local_filename = f"{record.accession_number}{record.extension or '.dat'}"
-                local_path = temp_dir / local_filename
-                client.download_document(record.accession_number, record.primary_document, local_path)
+            for future in as_completed(future_to_record):
+                results.append(future.result())
+                # Still respect some delay to avoid overwhelming the SEC API if necessary
+                if sleep_seconds > 0:
+                    time.sleep(sleep_seconds)
 
-                markdown_body = convert_local_file_to_markdown(local_path)
-                header = build_filing_markdown_header(record, "converted to Markdown")
-                full_markdown = f"{header}\n{markdown_body}".strip() + "\n"
-
-                form_dir = output_dir / sanitize_for_path(record.form_type)
-                md_name = build_markdown_filename(record.form_type, record.filing_date, record.accession_number)
-                saved_path = save_markdown(full_markdown, form_dir / md_name)
-
-                result["status"] = "success"
-                result["saved_path"] = str(saved_path)
-            except Exception as exc:
-                result["status"] = f"error: {exc}"
-
-            results.append(result)
-            time.sleep(sleep_seconds)
     finally:
         shutil.rmtree(temp_dir, ignore_errors=True)
+        logger.info(f"Cleaned up temporary directory: {temp_dir}")
 
     return results
 

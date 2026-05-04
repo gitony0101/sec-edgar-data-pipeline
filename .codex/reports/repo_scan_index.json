@@ -1,0 +1,1862 @@
+[
+  {
+    "path": ".archive/historical_outputs/README.md",
+    "name": "README.md",
+    "suffix": ".md",
+    "size_bytes": 280,
+    "priority": "high",
+    "category": "project-core",
+    "reason": "top-level project manifest or documentation",
+    "line_count": 5
+  },
+  {
+    "path": ".archive/historical_outputs/brain/README.md",
+    "name": "README.md",
+    "suffix": ".md",
+    "size_bytes": 803,
+    "priority": "high",
+    "category": "project-core",
+    "reason": "top-level project manifest or documentation",
+    "line_count": 19
+  },
+  {
+    "path": ".brain/codex_deep_review/README.md",
+    "name": "README.md",
+    "suffix": ".md",
+    "size_bytes": 312,
+    "priority": "high",
+    "category": "project-core",
+    "reason": "top-level project manifest or documentation",
+    "line_count": 6
+  },
+  {
+    "path": ".brain/codex_scan/README.md",
+    "name": "README.md",
+    "suffix": ".md",
+    "size_bytes": 288,
+    "priority": "high",
+    "category": "project-core",
+    "reason": "top-level project manifest or documentation",
+    "line_count": 6
+  },
+  {
+    "path": ".brain/debug_fill/README.md",
+    "name": "README.md",
+    "suffix": ".md",
+    "size_bytes": 278,
+    "priority": "high",
+    "category": "project-core",
+    "reason": "top-level project manifest or documentation",
+    "line_count": 6
+  },
+  {
+    "path": ".brain/gemini_runner/README.md",
+    "name": "README.md",
+    "suffix": ".md",
+    "size_bytes": 296,
+    "priority": "high",
+    "category": "project-core",
+    "reason": "top-level project manifest or documentation",
+    "line_count": 6
+  },
+  {
+    "path": ".brain/local_codex_review/README.md",
+    "name": "README.md",
+    "suffix": ".md",
+    "size_bytes": 345,
+    "priority": "high",
+    "category": "project-core",
+    "reason": "top-level project manifest or documentation",
+    "line_count": 6
+  },
+  {
+    "path": ".brain/test_snapshots/README.md",
+    "name": "README.md",
+    "suffix": ".md",
+    "size_bytes": 287,
+    "priority": "high",
+    "category": "project-core",
+    "reason": "top-level project manifest or documentation",
+    "line_count": 5
+  },
+  {
+    "path": ".brain/tree_role_probe/README.md",
+    "name": "README.md",
+    "suffix": ".md",
+    "size_bytes": 333,
+    "priority": "high",
+    "category": "project-core",
+    "reason": "top-level project manifest or documentation",
+    "line_count": 6
+  },
+  {
+    "path": "AGENTS.md",
+    "name": "AGENTS.md",
+    "suffix": ".md",
+    "size_bytes": 15171,
+    "priority": "high",
+    "category": "project-core",
+    "reason": "top-level project manifest or documentation",
+    "line_count": 421
+  },
+  {
+    "path": "README.md",
+    "name": "README.md",
+    "suffix": ".md",
+    "size_bytes": 1202,
+    "priority": "high",
+    "category": "project-core",
+    "reason": "top-level project manifest or documentation",
+    "line_count": 33
+  },
+  {
+    "path": "baseline_v1/README.md",
+    "name": "README.md",
+    "suffix": ".md",
+    "size_bytes": 1558,
+    "priority": "high",
+    "category": "project-core",
+    "reason": "top-level project manifest or documentation",
+    "line_count": 50
+  },
+  {
+    "path": "requirements.txt",
+    "name": "requirements.txt",
+    "suffix": ".txt",
+    "size_bytes": 259,
+    "priority": "high",
+    "category": "project-core",
+    "reason": "top-level project manifest or documentation",
+    "line_count": 14
+  },
+  {
+    "path": "scripts/README.md",
+    "name": "README.md",
+    "suffix": ".md",
+    "size_bytes": 1935,
+    "priority": "high",
+    "category": "project-core",
+    "reason": "top-level project manifest or documentation",
+    "line_count": 62
+  },
+  {
+    "path": ".agents/skills/repo-scan-review/scripts/scan_repo.py",
+    "name": "scan_repo.py",
+    "suffix": ".py",
+    "size_bytes": 8708,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 233
+  },
+  {
+    "path": ".archive/scripts/build_requirements_facts.sh",
+    "name": "build_requirements_facts.sh",
+    "suffix": ".sh",
+    "size_bytes": 431,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 20
+  },
+  {
+    "path": ".archive/scripts/choose_next_action.sh",
+    "name": "choose_next_action.sh",
+    "suffix": ".sh",
+    "size_bytes": 482,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 32
+  },
+  {
+    "path": ".archive/scripts/classify_file_role_3way.sh",
+    "name": "classify_file_role_3way.sh",
+    "suffix": ".sh",
+    "size_bytes": 1275,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 64
+  },
+  {
+    "path": ".archive/scripts/classify_final_role.sh",
+    "name": "classify_final_role.sh",
+    "suffix": ".sh",
+    "size_bytes": 356,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 29
+  },
+  {
+    "path": ".archive/scripts/classify_requirements_role.sh",
+    "name": "classify_requirements_role.sh",
+    "suffix": ".sh",
+    "size_bytes": 316,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 19
+  },
+  {
+    "path": ".archive/scripts/classify_requirements_role_ultra.sh",
+    "name": "classify_requirements_role_ultra.sh",
+    "suffix": ".sh",
+    "size_bytes": 545,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 33
+  },
+  {
+    "path": ".archive/scripts/comment_requirements_from_facts.sh",
+    "name": "comment_requirements_from_facts.sh",
+    "suffix": ".sh",
+    "size_bytes": 596,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 32
+  },
+  {
+    "path": ".archive/scripts/controller_once.sh",
+    "name": "controller_once.sh",
+    "suffix": ".sh",
+    "size_bytes": 854,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 39
+  },
+  {
+    "path": ".archive/scripts/controller_rule_first.sh",
+    "name": "controller_rule_first.sh",
+    "suffix": ".sh",
+    "size_bytes": 341,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 15
+  },
+  {
+    "path": ".archive/scripts/controller_rule_first_logged.sh",
+    "name": "controller_rule_first_logged.sh",
+    "suffix": ".sh",
+    "size_bytes": 602,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 30
+  },
+  {
+    "path": ".archive/scripts/draft_explain_file.sh",
+    "name": "draft_explain_file.sh",
+    "suffix": ".sh",
+    "size_bytes": 822,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 40
+  },
+  {
+    "path": ".archive/scripts/extract_requirements.py",
+    "name": "extract_requirements.py",
+    "suffix": ".py",
+    "size_bytes": 384,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 18
+  },
+  {
+    "path": ".archive/scripts/get_review_target.sh",
+    "name": "get_review_target.sh",
+    "suffix": ".sh",
+    "size_bytes": 144,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 5
+  },
+  {
+    "path": ".archive/scripts/refresh_facts.sh",
+    "name": "refresh_facts.sh",
+    "suffix": ".sh",
+    "size_bytes": 271,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 19
+  },
+  {
+    "path": ".archive/scripts/review_one_file.sh",
+    "name": "review_one_file.sh",
+    "suffix": ".sh",
+    "size_bytes": 1123,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 60
+  },
+  {
+    "path": ".archive/scripts/review_one_file_checked.sh",
+    "name": "review_one_file_checked.sh",
+    "suffix": ".sh",
+    "size_bytes": 490,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 23
+  },
+  {
+    "path": ".archive/scripts/review_queue_item.sh",
+    "name": "review_queue_item.sh",
+    "suffix": ".sh",
+    "size_bytes": 226,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 10
+  },
+  {
+    "path": ".archive/scripts/review_with_memory.sh",
+    "name": "review_with_memory.sh",
+    "suffix": ".sh",
+    "size_bytes": 1739,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 75
+  },
+  {
+    "path": ".archive/scripts/scan_repo_min.sh",
+    "name": "scan_repo_min.sh",
+    "suffix": ".sh",
+    "size_bytes": 313,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 20
+  },
+  {
+    "path": "scripts/analyze_one.sh",
+    "name": "analyze_one.sh",
+    "suffix": ".sh",
+    "size_bytes": 984,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 44
+  },
+  {
+    "path": "scripts/analyze_repo_core.sh",
+    "name": "analyze_repo_core.sh",
+    "suffix": ".sh",
+    "size_bytes": 1355,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 62
+  },
+  {
+    "path": "scripts/build_cross_check_queue_local.sh",
+    "name": "build_cross_check_queue_local.sh",
+    "suffix": ".sh",
+    "size_bytes": 4142,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 123
+  },
+  {
+    "path": "scripts/build_summary.sh",
+    "name": "build_summary.sh",
+    "suffix": ".sh",
+    "size_bytes": 1103,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 62
+  },
+  {
+    "path": "scripts/catalog_append.sh",
+    "name": "catalog_append.sh",
+    "suffix": ".sh",
+    "size_bytes": 516,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 19
+  },
+  {
+    "path": "scripts/choose_action_rule_first.sh",
+    "name": "choose_action_rule_first.sh",
+    "suffix": ".sh",
+    "size_bytes": 314,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 15
+  },
+  {
+    "path": "scripts/classify_role_rule_first.sh",
+    "name": "classify_role_rule_first.sh",
+    "suffix": ".sh",
+    "size_bytes": 602,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 47
+  },
+  {
+    "path": "scripts/classify_unknown_binary.sh",
+    "name": "classify_unknown_binary.sh",
+    "suffix": ".sh",
+    "size_bytes": 407,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 27
+  },
+  {
+    "path": "scripts/classify_unknown_core_binary.sh",
+    "name": "classify_unknown_core_binary.sh",
+    "suffix": ".sh",
+    "size_bytes": 421,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 27
+  },
+  {
+    "path": "scripts/clean_outputs.sh",
+    "name": "clean_outputs.sh",
+    "suffix": ".sh",
+    "size_bytes": 604,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 31
+  },
+  {
+    "path": "scripts/controller_rule_first_v2.sh",
+    "name": "controller_rule_first_v2.sh",
+    "suffix": ".sh",
+    "size_bytes": 1830,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 76
+  },
+  {
+    "path": "scripts/deep_review_with_codex.sh",
+    "name": "deep_review_with_codex.sh",
+    "suffix": ".sh",
+    "size_bytes": 1401,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 54
+  },
+  {
+    "path": "scripts/extract_python_card.py",
+    "name": "extract_python_card.py",
+    "suffix": ".py",
+    "size_bytes": 1411,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 60
+  },
+  {
+    "path": "scripts/fill_cross_check_note_local.sh",
+    "name": "fill_cross_check_note_local.sh",
+    "suffix": ".sh",
+    "size_bytes": 3610,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 125
+  },
+  {
+    "path": "scripts/fill_note_json.py",
+    "name": "fill_note_json.py",
+    "suffix": ".py",
+    "size_bytes": 8650,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 278
+  },
+  {
+    "path": "scripts/fill_review_note_local.sh",
+    "name": "fill_review_note_local.sh",
+    "suffix": ".sh",
+    "size_bytes": 733,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 24
+  },
+  {
+    "path": "scripts/get_first_80_lines.sh",
+    "name": "get_first_80_lines.sh",
+    "suffix": ".sh",
+    "size_bytes": 76,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 5
+  },
+  {
+    "path": "scripts/init_review.sh",
+    "name": "init_review.sh",
+    "suffix": ".sh",
+    "size_bytes": 2020,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 84
+  },
+  {
+    "path": "scripts/list_catalog.sh",
+    "name": "list_catalog.sh",
+    "suffix": ".sh",
+    "size_bytes": 836,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 44
+  },
+  {
+    "path": "scripts/local_codex_review.sh",
+    "name": "local_codex_review.sh",
+    "suffix": ".sh",
+    "size_bytes": 6250,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 248
+  },
+  {
+    "path": "scripts/mark_cross_check_reviewed_local.sh",
+    "name": "mark_cross_check_reviewed_local.sh",
+    "suffix": ".sh",
+    "size_bytes": 2168,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 70
+  },
+  {
+    "path": "scripts/mark_reviewed_local.sh",
+    "name": "mark_reviewed_local.sh",
+    "suffix": ".sh",
+    "size_bytes": 2965,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 98
+  },
+  {
+    "path": "scripts/open_report.sh",
+    "name": "open_report.sh",
+    "suffix": ".sh",
+    "size_bytes": 384,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 22
+  },
+  {
+    "path": "scripts/prepare_cross_check_note_local.sh",
+    "name": "prepare_cross_check_note_local.sh",
+    "suffix": ".sh",
+    "size_bytes": 2866,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 116
+  },
+  {
+    "path": "scripts/refresh_findings_summary_local.sh",
+    "name": "refresh_findings_summary_local.sh",
+    "suffix": ".sh",
+    "size_bytes": 4046,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 110
+  },
+  {
+    "path": "scripts/refresh_project_dashboard_local.sh",
+    "name": "refresh_project_dashboard_local.sh",
+    "suffix": ".sh",
+    "size_bytes": 3726,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 101
+  },
+  {
+    "path": "scripts/refresh_review_workspace_local.sh",
+    "name": "refresh_review_workspace_local.sh",
+    "suffix": ".sh",
+    "size_bytes": 846,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 30
+  },
+  {
+    "path": "scripts/render_draft_from_role.sh",
+    "name": "render_draft_from_role.sh",
+    "suffix": ".sh",
+    "size_bytes": 2917,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 72
+  },
+  {
+    "path": "scripts/review_next_file_local.sh",
+    "name": "review_next_file_local.sh",
+    "suffix": ".sh",
+    "size_bytes": 2083,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 70
+  },
+  {
+    "path": "scripts/review_one_file_local.sh",
+    "name": "review_one_file_local.sh",
+    "suffix": ".sh",
+    "size_bytes": 1632,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 73
+  },
+  {
+    "path": "scripts/run_gemini_task.sh",
+    "name": "run_gemini_task.sh",
+    "suffix": ".sh",
+    "size_bytes": 3042,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 94
+  },
+  {
+    "path": "scripts/scan_and_guide_codex.sh",
+    "name": "scan_and_guide_codex.sh",
+    "suffix": ".sh",
+    "size_bytes": 3017,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 123
+  },
+  {
+    "path": "scripts/status.sh",
+    "name": "status.sh",
+    "suffix": ".sh",
+    "size_bytes": 650,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 37
+  },
+  {
+    "path": "scripts/tree_role_probe.sh",
+    "name": "tree_role_probe.sh",
+    "suffix": ".sh",
+    "size_bytes": 1824,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 67
+  },
+  {
+    "path": "tests/conftest.py",
+    "name": "conftest.py",
+    "suffix": ".py",
+    "size_bytes": 144,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 6
+  },
+  {
+    "path": "tests/test_smoke_local.py",
+    "name": "test_smoke_local.py",
+    "suffix": ".py",
+    "size_bytes": 3819,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 99
+  },
+  {
+    "path": "tests/test_smoke_sec_network.py",
+    "name": "test_smoke_sec_network.py",
+    "suffix": ".py",
+    "size_bytes": 674,
+    "priority": "high",
+    "category": "source-or-config",
+    "reason": "human-authored source/config in a key directory",
+    "line_count": 19
+  },
+  {
+    "path": ".agents/skills/repo-scan-review/SKILL.md",
+    "name": "SKILL.md",
+    "suffix": ".md",
+    "size_bytes": 1403,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 51
+  },
+  {
+    "path": ".archive/historical_outputs/brain/0_notes.md",
+    "name": "0_notes.md",
+    "suffix": ".md",
+    "size_bytes": 140,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 2
+  },
+  {
+    "path": ".archive/historical_outputs/brain/ACTION_FACTS.md",
+    "name": "ACTION_FACTS.md",
+    "suffix": ".md",
+    "size_bytes": 595,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 26
+  },
+  {
+    "path": ".archive/historical_outputs/brain/CARD.md",
+    "name": "CARD.md",
+    "suffix": ".md",
+    "size_bytes": 595,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 26
+  },
+  {
+    "path": ".archive/historical_outputs/brain/DRAFT_CARD.md",
+    "name": "DRAFT_CARD.md",
+    "suffix": ".md",
+    "size_bytes": 445,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 23
+  },
+  {
+    "path": ".archive/historical_outputs/brain/FACTS.md",
+    "name": "FACTS.md",
+    "suffix": ".md",
+    "size_bytes": 407,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 21
+  },
+  {
+    "path": ".archive/historical_outputs/brain/MERGED_FACTS.md",
+    "name": "MERGED_FACTS.md",
+    "suffix": ".md",
+    "size_bytes": 595,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 26
+  },
+  {
+    "path": ".archive/historical_outputs/brain/REQ_FACTS.md",
+    "name": "REQ_FACTS.md",
+    "suffix": ".md",
+    "size_bytes": 297,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 14
+  },
+  {
+    "path": ".archive/historical_outputs/brain/TASK_FACTS.md",
+    "name": "TASK_FACTS.md",
+    "suffix": ".md",
+    "size_bytes": 296,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 15
+  },
+  {
+    "path": ".archive/historical_outputs/brain/WORKING_MEMORY.md",
+    "name": "WORKING_MEMORY.md",
+    "suffix": ".md",
+    "size_bytes": 150,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 2
+  },
+  {
+    "path": ".archive/historical_outputs/brain/before_config.md",
+    "name": "before_config.md",
+    "suffix": ".md",
+    "size_bytes": 121,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 2
+  },
+  {
+    "path": ".archive/historical_outputs/brain/before_converters.md",
+    "name": "before_converters.md",
+    "suffix": ".md",
+    "size_bytes": 121,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 2
+  },
+  {
+    "path": ".archive/historical_outputs/brain/before_main.md",
+    "name": "before_main.md",
+    "suffix": ".md",
+    "size_bytes": 121,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 2
+  },
+  {
+    "path": ".archive/historical_outputs/brain/codex_deep_review/deep_review_prompt_converters.py.txt",
+    "name": "deep_review_prompt_converters.py.txt",
+    "suffix": ".txt",
+    "size_bytes": 130,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 2
+  },
+  {
+    "path": ".archive/historical_outputs/brain/codex_scan/project_scan_prompt.txt",
+    "name": "project_scan_prompt.txt",
+    "suffix": ".txt",
+    "size_bytes": 158,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 2
+  },
+  {
+    "path": ".archive/historical_outputs/brain/codex_scan/project_structure.txt",
+    "name": "project_structure.txt",
+    "suffix": ".txt",
+    "size_bytes": 129,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 2
+  },
+  {
+    "path": ".archive/historical_outputs/brain/codex_scan/review_notes_list.txt",
+    "name": "review_notes_list.txt",
+    "suffix": ".txt",
+    "size_bytes": 155,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 2
+  },
+  {
+    "path": ".archive/historical_outputs/brain/codex_scan/source_files.txt",
+    "name": "source_files.txt",
+    "suffix": ".txt",
+    "size_bytes": 119,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 2
+  },
+  {
+    "path": ".archive/historical_outputs/brain/debug_fill/last_prompt_attempt_0.txt",
+    "name": "last_prompt_attempt_0.txt",
+    "suffix": ".txt",
+    "size_bytes": 124,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 2
+  },
+  {
+    "path": ".archive/historical_outputs/brain/debug_fill/last_response_attempt_0.json",
+    "name": "last_response_attempt_0.json",
+    "suffix": ".json",
+    "size_bytes": 126,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 2
+  },
+  {
+    "path": ".archive/historical_outputs/brain/gemini_runner/last_prompt.txt",
+    "name": "last_prompt.txt",
+    "suffix": ".txt",
+    "size_bytes": 173,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 2
+  },
+  {
+    "path": ".archive/historical_outputs/brain/last_model_output.json",
+    "name": "last_model_output.json",
+    "suffix": ".json",
+    "size_bytes": 125,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 2
+  },
+  {
+    "path": ".archive/historical_outputs/brain/local_codex_review/project_architecture.md",
+    "name": "project_architecture.md",
+    "suffix": ".md",
+    "size_bytes": 167,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 2
+  },
+  {
+    "path": ".archive/historical_outputs/brain/local_codex_review/project_structure.txt",
+    "name": "project_structure.txt",
+    "suffix": ".txt",
+    "size_bytes": 129,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 2
+  },
+  {
+    "path": ".archive/historical_outputs/brain/local_codex_review/prompt.txt",
+    "name": "prompt.txt",
+    "suffix": ".txt",
+    "size_bytes": 225,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 5
+  },
+  {
+    "path": ".archive/historical_outputs/brain/local_codex_review/repair_prompt_pipeline.py.txt",
+    "name": "repair_prompt_pipeline.py.txt",
+    "suffix": ".txt",
+    "size_bytes": 125,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 2
+  },
+  {
+    "path": ".archive/historical_outputs/brain/local_codex_review/review_notes_list.txt",
+    "name": "review_notes_list.txt",
+    "suffix": ".txt",
+    "size_bytes": 150,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 2
+  },
+  {
+    "path": ".archive/historical_outputs/brain/local_codex_review/source_files.txt",
+    "name": "source_files.txt",
+    "suffix": ".txt",
+    "size_bytes": 123,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 2
+  },
+  {
+    "path": ".archive/historical_outputs/brain/tree_role_probe/output.txt",
+    "name": "output.txt",
+    "suffix": ".txt",
+    "size_bytes": 128,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 2
+  },
+  {
+    "path": ".archive/historical_outputs/brain/tree_role_probe/prompt.txt",
+    "name": "prompt.txt",
+    "suffix": ".txt",
+    "size_bytes": 128,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 2
+  },
+  {
+    "path": ".archive/historical_outputs/brain/tree_role_probe/tree.txt",
+    "name": "tree.txt",
+    "suffix": ".txt",
+    "size_bytes": 116,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 2
+  },
+  {
+    "path": ".archive/review/FILE_NOTES/sec_edgar_pipeline_pipeline.py.md",
+    "name": "sec_edgar_pipeline_pipeline.py.md",
+    "suffix": ".md",
+    "size_bytes": 1428,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 65
+  },
+  {
+    "path": ".brain/ACTION_RULE_CARD.md",
+    "name": "ACTION_RULE_CARD.md",
+    "suffix": ".md",
+    "size_bytes": 355,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 19
+  },
+  {
+    "path": ".brain/CONTROL_PLANE_STATUS.md",
+    "name": "CONTROL_PLANE_STATUS.md",
+    "suffix": ".md",
+    "size_bytes": 4783,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 87
+  },
+  {
+    "path": ".brain/FILE_CATALOG.md",
+    "name": "FILE_CATALOG.md",
+    "suffix": ".md",
+    "size_bytes": 787,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 44
+  },
+  {
+    "path": ".brain/RUN_LOG.md",
+    "name": "RUN_LOG.md",
+    "suffix": ".md",
+    "size_bytes": 20992,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 1124
+  },
+  {
+    "path": ".brain/SUMMARY.md",
+    "name": "SUMMARY.md",
+    "suffix": ".md",
+    "size_bytes": 1855,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 81
+  },
+  {
+    "path": ".brain/UNKNOWN_CARD.md",
+    "name": "UNKNOWN_CARD.md",
+    "suffix": ".md",
+    "size_bytes": 355,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 19
+  },
+  {
+    "path": ".brain/UNKNOWN_CORE_CARD.md",
+    "name": "UNKNOWN_CORE_CARD.md",
+    "suffix": ".md",
+    "size_bytes": 355,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 19
+  },
+  {
+    "path": ".brain/agent_role_bootstrap.md",
+    "name": "agent_role_bootstrap.md",
+    "suffix": ".md",
+    "size_bytes": 1881,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 38
+  },
+  {
+    "path": ".brain/current_phase_definition.md",
+    "name": "current_phase_definition.md",
+    "suffix": ".md",
+    "size_bytes": 2808,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 45
+  },
+  {
+    "path": ".brain/gemma4e2b_capability_boundary.md",
+    "name": "gemma4e2b_capability_boundary.md",
+    "suffix": ".md",
+    "size_bytes": 2596,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 53
+  },
+  {
+    "path": ".brain/local_codex_review/project_structure.txt",
+    "name": "project_structure.txt",
+    "suffix": ".txt",
+    "size_bytes": 538,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 19
+  },
+  {
+    "path": ".brain/local_codex_review/prompt.txt",
+    "name": "prompt.txt",
+    "suffix": ".txt",
+    "size_bytes": 11849,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 243
+  },
+  {
+    "path": ".brain/local_codex_review/raw_output.txt",
+    "name": "raw_output.txt",
+    "suffix": ".txt",
+    "size_bytes": 16598,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 298
+  },
+  {
+    "path": ".brain/local_codex_review/source_files.txt",
+    "name": "source_files.txt",
+    "suffix": ".txt",
+    "size_bytes": 631,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 15
+  },
+  {
+    "path": ".brain/next_actions.md",
+    "name": "next_actions.md",
+    "suffix": ".md",
+    "size_bytes": 557,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 8
+  },
+  {
+    "path": ".brain/project_architecture.md",
+    "name": "project_architecture.md",
+    "suffix": ".md",
+    "size_bytes": 2874,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 49
+  },
+  {
+    "path": ".brain/reports/INDEX.md",
+    "name": "INDEX.md",
+    "suffix": ".md",
+    "size_bytes": 611,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 15
+  },
+  {
+    "path": ".brain/reports/sec_edgar_pipeline____main__.py.md",
+    "name": "sec_edgar_pipeline____main__.py.md",
+    "suffix": ".md",
+    "size_bytes": 277,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 12
+  },
+  {
+    "path": ".brain/reports/sec_edgar_pipeline__config.py.md",
+    "name": "sec_edgar_pipeline__config.py.md",
+    "suffix": ".md",
+    "size_bytes": 303,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 12
+  },
+  {
+    "path": ".brain/reports/sec_edgar_pipeline__converters.py.md",
+    "name": "sec_edgar_pipeline__converters.py.md",
+    "suffix": ".md",
+    "size_bytes": 301,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 12
+  },
+  {
+    "path": ".brain/reports/sec_edgar_pipeline__form_map.py.md",
+    "name": "sec_edgar_pipeline__form_map.py.md",
+    "suffix": ".md",
+    "size_bytes": 3102,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 97
+  },
+  {
+    "path": ".brain/reports/sec_edgar_pipeline__pipeline.py.md",
+    "name": "sec_edgar_pipeline__pipeline.py.md",
+    "suffix": ".md",
+    "size_bytes": 3356,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 97
+  },
+  {
+    "path": ".brain/reports/sec_edgar_pipeline__sec_client.py.md",
+    "name": "sec_edgar_pipeline__sec_client.py.md",
+    "suffix": ".md",
+    "size_bytes": 3286,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 97
+  },
+  {
+    "path": ".brain/reports/sec_edgar_pipeline__xml_parsers.py.md",
+    "name": "sec_edgar_pipeline__xml_parsers.py.md",
+    "suffix": ".md",
+    "size_bytes": 258,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 12
+  },
+  {
+    "path": ".brain/review_session_memory.index.json",
+    "name": "review_session_memory.index.json",
+    "suffix": ".json",
+    "size_bytes": 3847,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 68
+  },
+  {
+    "path": ".brain/review_session_memory.md",
+    "name": "review_session_memory.md",
+    "suffix": ".md",
+    "size_bytes": 38774,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 734
+  },
+  {
+    "path": ".brain/suggestion_pool.md",
+    "name": "suggestion_pool.md",
+    "suffix": ".md",
+    "size_bytes": 4811,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 97
+  },
+  {
+    "path": ".brain/test_snapshots/sec_edgar_pipeline____main__.py_after.md",
+    "name": "sec_edgar_pipeline____main__.py_after.md",
+    "suffix": ".md",
+    "size_bytes": 692,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 43
+  },
+  {
+    "path": ".brain/test_snapshots/sec_edgar_pipeline____main__.py_before.md",
+    "name": "sec_edgar_pipeline____main__.py_before.md",
+    "suffix": ".md",
+    "size_bytes": 706,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 43
+  },
+  {
+    "path": ".brain/test_snapshots/sec_edgar_pipeline__config.py_after.md",
+    "name": "sec_edgar_pipeline__config.py_after.md",
+    "suffix": ".md",
+    "size_bytes": 830,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 47
+  },
+  {
+    "path": ".brain/test_snapshots/sec_edgar_pipeline__config.py_before.md",
+    "name": "sec_edgar_pipeline__config.py_before.md",
+    "suffix": ".md",
+    "size_bytes": 839,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 47
+  },
+  {
+    "path": ".brain/test_snapshots/sec_edgar_pipeline__converters.py_after.md",
+    "name": "sec_edgar_pipeline__converters.py_after.md",
+    "suffix": ".md",
+    "size_bytes": 1213,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 55
+  },
+  {
+    "path": ".brain/test_snapshots/sec_edgar_pipeline__converters.py_before.md",
+    "name": "sec_edgar_pipeline__converters.py_before.md",
+    "suffix": ".md",
+    "size_bytes": 882,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 53
+  },
+  {
+    "path": ".brain/test_snapshots/sec_edgar_pipeline__pipeline.py_after.md",
+    "name": "sec_edgar_pipeline__pipeline.py_after.md",
+    "suffix": ".md",
+    "size_bytes": 1971,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 66
+  },
+  {
+    "path": ".brain/test_snapshots/sec_edgar_pipeline__pipeline.py_before.md",
+    "name": "sec_edgar_pipeline__pipeline.py_before.md",
+    "suffix": ".md",
+    "size_bytes": 2825,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 67
+  },
+  {
+    "path": ".brain/test_snapshots/sec_edgar_pipeline__sec_client.py_after.md",
+    "name": "sec_edgar_pipeline__sec_client.py_after.md",
+    "suffix": ".md",
+    "size_bytes": 2449,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 69
+  },
+  {
+    "path": ".brain/test_snapshots/sec_edgar_pipeline__sec_client.py_before.md",
+    "name": "sec_edgar_pipeline__sec_client.py_before.md",
+    "suffix": ".md",
+    "size_bytes": 1220,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 61
+  },
+  {
+    "path": ".brain/test_snapshots/sec_edgar_pipeline__xml_parsers.py_after.md",
+    "name": "sec_edgar_pipeline__xml_parsers.py_after.md",
+    "suffix": ".md",
+    "size_bytes": 1067,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 53
+  },
+  {
+    "path": ".brain/test_snapshots/sec_edgar_pipeline__xml_parsers.py_before.md",
+    "name": "sec_edgar_pipeline__xml_parsers.py_before.md",
+    "suffix": ".md",
+    "size_bytes": 770,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 49
+  },
+  {
+    "path": ".codex/config.toml",
+    "name": "config.toml",
+    "suffix": ".toml",
+    "size_bytes": 147,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 7
+  },
+  {
+    "path": ".codex/reports/REPO_SCAN_SUMMARY.md",
+    "name": "REPO_SCAN_SUMMARY.md",
+    "suffix": ".md",
+    "size_bytes": 816,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 40
+  },
+  {
+    "path": ".codex/reports/REVIEW_QUEUE.md",
+    "name": "REVIEW_QUEUE.md",
+    "suffix": ".md",
+    "size_bytes": 18328,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 423
+  },
+  {
+    "path": ".codex/reports/repo_scan_index.json",
+    "name": "repo_scan_index.json",
+    "suffix": ".json",
+    "size_bytes": 53860,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 1842
+  },
+  {
+    "path": "RUNNING.md",
+    "name": "RUNNING.md",
+    "suffix": ".md",
+    "size_bytes": 1947,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 58
+  },
+  {
+    "path": "analyze.sh",
+    "name": "analyze.sh",
+    "suffix": ".sh",
+    "size_bytes": 4074,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 162
+  },
+  {
+    "path": "baseline_v1/docs/BASELINE_STATUS.md",
+    "name": "BASELINE_STATUS.md",
+    "suffix": ".md",
+    "size_bytes": 876,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 29
+  },
+  {
+    "path": "baseline_v1/docs/FILE_CATALOG.snapshot.md",
+    "name": "FILE_CATALOG.snapshot.md",
+    "suffix": ".md",
+    "size_bytes": 594,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 32
+  },
+  {
+    "path": "baseline_v1/docs/RUN_LOG.snapshot.md",
+    "name": "RUN_LOG.snapshot.md",
+    "suffix": ".md",
+    "size_bytes": 1802,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 98
+  },
+  {
+    "path": "baseline_v1/scripts_snapshot/catalog_append.sh",
+    "name": "catalog_append.sh",
+    "suffix": ".sh",
+    "size_bytes": 516,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 19
+  },
+  {
+    "path": "baseline_v1/scripts_snapshot/choose_action_rule_first.sh",
+    "name": "choose_action_rule_first.sh",
+    "suffix": ".sh",
+    "size_bytes": 314,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 15
+  },
+  {
+    "path": "baseline_v1/scripts_snapshot/classify_role_rule_first.sh",
+    "name": "classify_role_rule_first.sh",
+    "suffix": ".sh",
+    "size_bytes": 482,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 37
+  },
+  {
+    "path": "baseline_v1/scripts_snapshot/controller_rule_first_v2.sh",
+    "name": "controller_rule_first_v2.sh",
+    "suffix": ".sh",
+    "size_bytes": 1747,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 74
+  },
+  {
+    "path": "baseline_v1/scripts_snapshot/extract_python_card.py",
+    "name": "extract_python_card.py",
+    "suffix": ".py",
+    "size_bytes": 1411,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 60
+  },
+  {
+    "path": "baseline_v1/scripts_snapshot/get_first_80_lines.sh",
+    "name": "get_first_80_lines.sh",
+    "suffix": ".sh",
+    "size_bytes": 76,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 5
+  },
+  {
+    "path": "review/CROSS_CHECK_NOTES/sec_edgar_pipeline__form_map.py_vs_sec_edgar_pipeline__pipeline.py.md",
+    "name": "sec_edgar_pipeline__form_map.py_vs_sec_edgar_pipeline__pipeline.py.md",
+    "suffix": ".md",
+    "size_bytes": 3176,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 48
+  },
+  {
+    "path": "review/CROSS_CHECK_NOTES/sec_edgar_pipeline__form_map.py_vs_sec_edgar_pipeline__sec_client.py.md",
+    "name": "sec_edgar_pipeline__form_map.py_vs_sec_edgar_pipeline__sec_client.py.md",
+    "suffix": ".md",
+    "size_bytes": 2931,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 47
+  },
+  {
+    "path": "review/CROSS_CHECK_QUEUE.md",
+    "name": "CROSS_CHECK_QUEUE.md",
+    "suffix": ".md",
+    "size_bytes": 317,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 6
+  },
+  {
+    "path": "review/FILE_NOTES/sec_edgar_pipeline____main__.py.md",
+    "name": "sec_edgar_pipeline____main__.py.md",
+    "suffix": ".md",
+    "size_bytes": 1806,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 51
+  },
+  {
+    "path": "review/FILE_NOTES/sec_edgar_pipeline__config.py.md",
+    "name": "sec_edgar_pipeline__config.py.md",
+    "suffix": ".md",
+    "size_bytes": 2259,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 52
+  },
+  {
+    "path": "review/FILE_NOTES/sec_edgar_pipeline__converters.py.md",
+    "name": "sec_edgar_pipeline__converters.py.md",
+    "suffix": ".md",
+    "size_bytes": 1811,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 58
+  },
+  {
+    "path": "review/FILE_NOTES/sec_edgar_pipeline__form_map.py.md",
+    "name": "sec_edgar_pipeline__form_map.py.md",
+    "suffix": ".md",
+    "size_bytes": 2829,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 56
+  },
+  {
+    "path": "review/FILE_NOTES/sec_edgar_pipeline__google_drive.py.md",
+    "name": "sec_edgar_pipeline__google_drive.py.md",
+    "suffix": ".md",
+    "size_bytes": 1086,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 57
+  },
+  {
+    "path": "review/FILE_NOTES/sec_edgar_pipeline__pipeline.py.md",
+    "name": "sec_edgar_pipeline__pipeline.py.md",
+    "suffix": ".md",
+    "size_bytes": 2638,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 70
+  },
+  {
+    "path": "review/FILE_NOTES/sec_edgar_pipeline__sec_client.py.md",
+    "name": "sec_edgar_pipeline__sec_client.py.md",
+    "suffix": ".md",
+    "size_bytes": 3270,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 75
+  },
+  {
+    "path": "review/FILE_NOTES/sec_edgar_pipeline__xml_parsers.py.md",
+    "name": "sec_edgar_pipeline__xml_parsers.py.md",
+    "suffix": ".md",
+    "size_bytes": 2611,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 58
+  },
+  {
+    "path": "review/FILE_NOTES/tests__test_smoke_local.py.md",
+    "name": "tests__test_smoke_local.py.md",
+    "suffix": ".md",
+    "size_bytes": 2507,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 61
+  },
+  {
+    "path": "review/FINDINGS.md",
+    "name": "FINDINGS.md",
+    "suffix": ".md",
+    "size_bytes": 6115,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 47
+  },
+  {
+    "path": "review/NEXT_STEPS.md",
+    "name": "NEXT_STEPS.md",
+    "suffix": ".md",
+    "size_bytes": 4527,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 39
+  },
+  {
+    "path": "review/PROJECT_DASHBOARD.md",
+    "name": "PROJECT_DASHBOARD.md",
+    "suffix": ".md",
+    "size_bytes": 1248,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 33
+  },
+  {
+    "path": "review/PROJECT_SUMMARY.md",
+    "name": "PROJECT_SUMMARY.md",
+    "suffix": ".md",
+    "size_bytes": 229,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 11
+  },
+  {
+    "path": "review/REVIEW_QUEUE.md",
+    "name": "REVIEW_QUEUE.md",
+    "suffix": ".md",
+    "size_bytes": 495,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 10
+  },
+  {
+    "path": "sec_edgar_pipeline/__init__.py",
+    "name": "__init__.py",
+    "suffix": ".py",
+    "size_bytes": 224,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 6
+  },
+  {
+    "path": "sec_edgar_pipeline/__main__.py",
+    "name": "__main__.py",
+    "suffix": ".py",
+    "size_bytes": 1963,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 49
+  },
+  {
+    "path": "sec_edgar_pipeline/config.py",
+    "name": "config.py",
+    "suffix": ".py",
+    "size_bytes": 907,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 36
+  },
+  {
+    "path": "sec_edgar_pipeline/converters.py",
+    "name": "converters.py",
+    "suffix": ".py",
+    "size_bytes": 2588,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 70
+  },
+  {
+    "path": "sec_edgar_pipeline/form_map.py",
+    "name": "form_map.py",
+    "suffix": ".py",
+    "size_bytes": 3064,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 86
+  },
+  {
+    "path": "sec_edgar_pipeline/google_drive.py",
+    "name": "google_drive.py",
+    "suffix": ".py",
+    "size_bytes": 6089,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 154
+  },
+  {
+    "path": "sec_edgar_pipeline/pipeline.py",
+    "name": "pipeline.py",
+    "suffix": ".py",
+    "size_bytes": 5596,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 152
+  },
+  {
+    "path": "sec_edgar_pipeline/sec_client.py",
+    "name": "sec_client.py",
+    "suffix": ".py",
+    "size_bytes": 4378,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 114
+  },
+  {
+    "path": "sec_edgar_pipeline/xml_parsers.py",
+    "name": "xml_parsers.py",
+    "suffix": ".py",
+    "size_bytes": 3166,
+    "priority": "medium",
+    "category": "text",
+    "reason": "human-authored text file outside the primary code paths",
+    "line_count": 74
+  },
+  {
+    "path": ".archive/historical_outputs/.gitkeep",
+    "name": ".gitkeep",
+    "suffix": "",
+    "size_bytes": 1,
+    "priority": "low",
+    "category": "unknown-or-generated",
+    "reason": "unknown extension or likely generated file",
+    "line_count": null
+  },
+  {
+    "path": ".gitignore",
+    "name": ".gitignore",
+    "suffix": "",
+    "size_bytes": 4688,
+    "priority": "low",
+    "category": "unknown-or-generated",
+    "reason": "unknown extension or likely generated file",
+    "line_count": null
+  },
+  {
+    "path": "LICENSE",
+    "name": "LICENSE",
+    "suffix": "",
+    "size_bytes": 1063,
+    "priority": "low",
+    "category": "unknown-or-generated",
+    "reason": "unknown extension or likely generated file",
+    "line_count": null
+  }
+]

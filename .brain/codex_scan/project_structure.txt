@@ -1,0 +1,84 @@
+# WORKSPACE
+/Users/sagawithme/Documents/Github/portfolio-projects/sec-edgar-data-pipeline
+
+# TOP LEVEL
+total 88
+drwxr-xr-x@ 24 sagawithme  staff    768 Apr  6 12:09 .
+drwxr-xr-x@ 11 sagawithme  staff    352 Apr 17 21:27 ..
+drwxr-xr-x@  3 sagawithme  staff     96 Apr  4 11:56 .agents
+drwxr-xr-x@  5 sagawithme  staff    160 Apr  6 11:59 .archive
+drwxr-xr-x@ 25 sagawithme  staff    800 Apr  6 17:57 .brain
+drwxr-xr-x@  6 sagawithme  staff    192 Apr  4 13:50 .codex
+drwxr-xr-x@ 15 sagawithme  staff    480 Apr  6 12:01 .git
+-rw-r--r--@  1 sagawithme  staff   4688 Mar 27 14:59 .gitignore
+drwxr-xr-x@  5 sagawithme  staff    160 Apr  5 23:38 .mypy_cache
+drwxr-xr-x@  6 sagawithme  staff    192 Apr  6 12:09 .pytest_cache
+-rw-r--r--@  1 sagawithme  staff  15171 Apr  6 20:23 AGENTS.md
+-rwxr-xr-x@  1 sagawithme  staff   4074 Apr  5 20:25 analyze.sh
+drwxr-xr-x@  5 sagawithme  staff    160 Apr  4 23:04 baseline_v1
+drwxr-xr-x@  4 sagawithme  staff    128 Mar 27 15:00 data
+drwxr-xr-x@  2 sagawithme  staff     64 Mar 27 15:00 figures
+-rw-r--r--@  1 sagawithme  staff   1063 Mar 27 14:59 LICENSE
+drwxr-xr-x@  4 sagawithme  staff    128 Mar 27 15:00 outputs
+-rw-r--r--@  1 sagawithme  staff   1202 Apr  2 20:55 README.md
+-rw-r--r--@  1 sagawithme  staff    259 Apr  2 20:55 requirements.txt
+drwxr-xr-x@ 10 sagawithme  staff    320 Apr  5 22:25 review
+-rw-r--r--@  1 sagawithme  staff   1947 Apr  2 20:55 RUNNING.md
+drwxr-xr-x@ 37 sagawithme  staff   1184 Apr  6 11:08 scripts
+drwxr-xr-x@ 12 sagawithme  staff    384 Apr  6 12:09 sec_edgar_pipeline
+drwxr-xr-x@  6 sagawithme  staff    192 Apr  6 12:09 tests
+
+# TARGET TREE
+sec_edgar_pipeline
+├── __init__.py
+├── __main__.py
+├── __pycache__
+│   ├── __init__.cpython-310.pyc
+│   ├── __init__.cpython-311.pyc
+│   ├── config.cpython-310.pyc
+│   ├── config.cpython-311.pyc
+│   ├── converters.cpython-310.pyc
+│   ├── converters.cpython-311.pyc
+│   ├── form_map.cpython-310.pyc
+│   ├── form_map.cpython-311.pyc
+│   ├── pipeline.cpython-310.pyc
+│   ├── pipeline.cpython-311.pyc
+│   ├── sec_client.cpython-310.pyc
+│   ├── sec_client.cpython-311.pyc
+│   ├── xml_parsers.cpython-310.pyc
+│   └── xml_parsers.cpython-311.pyc
+├── config.py
+├── converters.py
+├── form_map.py
+├── google_drive.py
+├── pipeline.py
+├── sec_client.py
+└── xml_parsers.py
+
+2 directories, 23 files
+
+# TARGET PYTHON FILES
+sec_edgar_pipeline/__init__.py
+sec_edgar_pipeline/__main__.py
+sec_edgar_pipeline/__pycache__/__init__.cpython-310.pyc
+sec_edgar_pipeline/__pycache__/__init__.cpython-311.pyc
+sec_edgar_pipeline/__pycache__/config.cpython-310.pyc
+sec_edgar_pipeline/__pycache__/config.cpython-311.pyc
+sec_edgar_pipeline/__pycache__/converters.cpython-310.pyc
+sec_edgar_pipeline/__pycache__/converters.cpython-311.pyc
+sec_edgar_pipeline/__pycache__/form_map.cpython-310.pyc
+sec_edgar_pipeline/__pycache__/form_map.cpython-311.pyc
+sec_edgar_pipeline/__pycache__/pipeline.cpython-310.pyc
+sec_edgar_pipeline/__pycache__/pipeline.cpython-311.pyc
+sec_edgar_pipeline/__pycache__/sec_client.cpython-310.pyc
+sec_edgar_pipeline/__pycache__/sec_client.cpython-311.pyc
+sec_edgar_pipeline/__pycache__/xml_parsers.cpython-310.pyc
+sec_edgar_pipeline/__pycache__/xml_parsers.cpython-311.pyc
+sec_edgar_pipeline/config.py
+sec_edgar_pipeline/converters.py
+sec_edgar_pipeline/form_map.py
+sec_edgar_pipeline/google_drive.py
+sec_edgar_pipeline/pipeline.py
+sec_edgar_pipeline/sec_client.py
+sec_edgar_pipeline/xml_parsers.py
+

@@ -1,0 +1,68 @@
+{
+  "project_name": "sec-edgar-data-pipeline",
+  "current_phase": "control-plane stabilization with repeated verified minimal local patch capability",
+  "memory_layers": {
+    "bootstrap": {
+      "path": ".brain/agent_role_bootstrap.md",
+      "purpose": "tree-level bootstrap context and evidence limits"
+    },
+    "architecture": {
+      "path": ".brain/project_architecture.md",
+      "purpose": "stable module map after grounded source review"
+    },
+    "session_memory": {
+      "path": ".brain/review_session_memory.md",
+      "purpose": "append-only record of grounded review and cross-check rounds"
+    }
+  },
+  "current_focus": [
+    "keep formal state assets synchronized with live source state",
+    "preserve control-plane coherence during repeated minimal patch trials",
+    "continue separating active control inputs from historical scratch outputs",
+    "compress the next validation-expansion and execution paths so they do not need to be rediscovered"
+  ],
+  "reviewed_files": [
+    "sec_edgar_pipeline/__main__.py",
+    "sec_edgar_pipeline/config.py",
+    "sec_edgar_pipeline/converters.py",
+    "sec_edgar_pipeline/form_map.py",
+    "sec_edgar_pipeline/google_drive.py",
+    "sec_edgar_pipeline/pipeline.py",
+    "sec_edgar_pipeline/sec_client.py",
+    "sec_edgar_pipeline/xml_parsers.py",
+    "tests/test_smoke_local.py"
+  ],
+  "priority_next_files": [
+    "scripts/local_codex_review.sh",
+    "scripts/run_gemini_task.sh",
+    "scripts/refresh_review_workspace_local.sh",
+    "analyze.sh"
+  ],
+  "confirmed_findings": [
+    "bootstrap memory should capture stance and evidence limits, not a hard-coded role",
+    "scripts/tree_role_probe.sh and scripts/local_codex_review.sh were the main prompt-drift points",
+    "two minimal single-function patch trials succeeded in sec_edgar_pipeline/form_map.py",
+    "unknown-form fallback behavior in sec_edgar_pipeline/form_map.py is now executable evidence in tests/test_smoke_local.py",
+    "the full unknown-form filename shape in sec_edgar_pipeline/form_map.py is now fixed by an exact smoke assertion",
+    "malformed filing_date behavior in sec_edgar_pipeline/form_map.py is now executable evidence in tests/test_smoke_local.py",
+    "wrapped-root Form 4 parsing in sec_edgar_pipeline/xml_parsers.py is now executable evidence in tests/test_smoke_local.py",
+    "malformed SEC_LIMIT parsing in sec_edgar_pipeline/config.py is now executable evidence in tests/test_smoke_local.py",
+    "malformed SEC_SLEEP_SECONDS parsing in sec_edgar_pipeline/config.py is now executable evidence in tests/test_smoke_local.py",
+    "the config Option A path is now closed under current semantics because no justified bounded patch remains",
+    "local gemma4:e2b review-mode output is still not trustworthy as sole final review evidence for longer prompts when the validity gate fails",
+    "python -m pytest -q tests/test_smoke_local.py passed after each minimal patch trial",
+    ".brain/review_session_memory.md is the primary append-only review memory file"
+  ],
+  "open_questions": [
+    "whether any remaining workflow script still depends on the old identity-injection prompt shape",
+    "whether additional historical prompt artifacts under other .brain subdirectories should be archived later",
+    "whether equivalent repeated patch success will hold outside form_map.py in other reviewed modules",
+    "whether a future config-boundary move should preserve the current raw ValueError semantics or intentionally widen into clearer operator-facing behavior"
+  ],
+  "writer_rules": {
+    "bootstrap": "update only from tree-level evidence or workflow cleanup",
+    "architecture": "update only from grounded source review that changes the stable module map",
+    "session_memory": "append one entry per grounded review or cross-check round"
+  },
+  "last_session_id": "SESSION 023"
+}
